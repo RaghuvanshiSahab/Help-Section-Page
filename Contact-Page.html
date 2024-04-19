@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+    <title>Contact-Us</title>
+    <style>
+        .font {
+            font-family: 'Philosopher', sans-serif;
+        }
+
+        /* LOGO-SECTION */
+        .logo {
+            height: 85px;
+            margin: 0px 18px;
+            display: flex;
+        }
+
+        .logo img {
+            width: 60px;
+            height: 60px;
+            margin: 0px 10px;
+        }
+
+        /* BOXES-SECTION */
+        .mainbox {
+            box-shadow: 2px 2px 20px rgb(51, 155, 224), 2px 2px 20px red;
+            border-radius: 18px;
+            margin: 60px 80px;
+            width: 1200px;
+            height: 540px;
+            background-color: red;
+        }
+
+        /* FIRST-BOX */
+        .grid {
+            grid-template-areas: "Area";
+            grid-template-columns: 0fr 0fr 0fr;
+            grid-template-rows: auto;
+            grid-row-gap: 16px;
+            grid-column-gap: 0px;
+            display: grid;
+            grid-auto-columns: 1fr;
+        }
+
+        /* FIRST-SECTION */
+        .part1 {
+            color: white;
+            border-radius: 18px 0px 0px 18px;
+            width: 450px;
+            height: 540px;
+            background-color: rgb(167, 101, 228);
+        }
+
+        .space1 {
+            height: 30px;
+        }
+
+        /* CONTACT-INFORMATION HEADING */
+        .heading1 {
+            margin: 10px 25px;
+            font-size: 35px;
+            font-weight: 600;
+            color: black;
+            text-shadow: 2px 2px 2px blueviolet, 2px 2px 2px black;
+        }
+
+        /* INNER-BOX */
+        .grid2 {
+            grid-template-areas: "Area";
+            grid-template-columns: 0fr;
+            grid-template-rows: auto;
+            grid-column-gap: 0px;
+            display: grid;
+        }
+        .grid3 {
+            grid-template-areas: "Area";
+            grid-template-columns: 0fr 0fr 0fr 0fr 0fr 0fr 0fr 0fr;
+            grid-template-rows: auto;
+            grid-column-gap: 0px;
+            display: grid;
+        }
+
+        .part2 {
+            border-radius: 0px 18px 18px 0px;
+            width: 750px;
+            height: 540px;
+            background-color: black;
+        }
+
+        .text1 {
+            opacity: 0.7;
+            font-size: 14px;
+            margin: -8px 28px;
+            width: 260px;
+            color: white;
+            text-shadow: 2px 2px 2px blueviolet, 2px 2px 2px rgb(30, 4, 54);
+
+        }
+
+        .sec1 {
+            display: flex;
+            height: 65px;
+        }
+
+        .sec1 img {
+            margin: 0px 20px;
+            width: 45px;
+            height: 45px;
+        }
+
+        .sec1 span {
+            cursor: copy;
+            font-size: 18px;
+            margin: 12px 0px;
+            /* font-weight: 600; */
+            color: rgb(236, 229, 229);
+            text-shadow: 2px 2px 2px blueviolet, 2px 2px 2px rgb(30, 4, 54);
+        }
+
+        .space2 {
+            height: 30px;
+        }
+
+        /* PLATFORM HEADING  */
+        .Platform {
+            color: red;
+        }
+
+        * ICONS SECTION */ .icons {
+            display: flex;
+        }
+
+        .insta {
+            padding: 0px 0px;
+            margin: -6px 10px;
+            height: 70px;
+            width: 70px;
+            cursor: pointer;
+        }
+
+        .facebook {
+            margin: 10px 0px;
+            height: 42px;
+            width: 42px;
+            cursor: pointer;
+        }
+
+        .youtube {
+            margin: 0px 8px;
+            height: 62px;
+            width: 73px;
+            cursor: pointer;
+        }
+
+        .tweet {
+            margin: 0px -7px;
+            height: 60px;
+            width: 60px;
+            cursor: pointer;
+        }
+
+        /* SECOND-BOX */
+        .heading2 {
+            margin: 10px 260px;
+            font-size: 35px;
+            font-weight: 600;
+            color: blueviolet;
+            text-shadow: 2px 2px 2px black, 2px 2px 2px white;
+        }
+        .names {
+            margin: 0px 40px;
+            color: rgb(167, 101, 228);
+            text-shadow: 2px 2px 1px black, 2px 2px 1px white;
+            grid-template-areas: "Area";
+            grid-template-columns: 0fr 0fr;
+            grid-template-rows: auto;
+            grid-row-gap: 0px;
+            grid-column-gap: 10px;
+            display: grid;
+            grid-auto-columns: 1fr;
+            width: 600px;
+        }
+
+        .names span {
+            margin: 0px 30px;
+            width: 250px;
+            font-weight: 700;
+        }
+        ::placeholder {
+            font-family: 'Philosopher', sans-serif;
+            font-size: 10.5px;
+            padding: 0px 0px;
+            opacity: 0.5;
+            color: white;
+        }
+        .names input {
+            cursor: pointer;
+            margin: -5px 0px;
+            border: none;
+            border-radius: 0px 18px 18px 0px;
+            width: 200px;
+            height: 28px;
+            box-shadow: 0px 2px 10px rgb(3, 98, 161), 0px 2px 10px red;
+            background-color: rgb(167, 101, 228);
+            color: white;
+            padding: 0px 15px;
+        }
+
+        .form {
+            padding: 10px 30px;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .search-field {
+            width: 600px;
+            height: 25px;
+            padding: 10px 35px 10px 15px;
+            border: none;
+            border-radius: 0px 20px 20px 0px;
+            outline: none;
+            color: rgb(167, 101, 228);
+            font-size: 14px;
+        }
+        
+        
+        .search-button {
+            box-shadow: 0px 2px 10px rgb(3, 98, 161), 0px 2px 10px red;
+            margin: -5px 0px;
+            background: white;
+            border: none;
+            border-radius: 20px 0px 0px 20px;
+            outline: none;
+            margin-left: 0px;
+            padding: 0px 0px;
+            border-right: 2px solid black;
+        }
+
+        .search-button img {
+            margin: 0px 10px;
+            width: 19px;
+            height: 19px;
+            object-fit: cover;
+            padding: px 0px;
+        }
+        #some{
+            font-size: 25px;
+            margin: 0px 70px;
+        }
+        .checkboxes{
+            display: flex;
+        }
+        #check{
+            cursor: pointer;
+            cursor:pointer ;
+            width: 18px;
+            height: 18px;
+            margin: 20px 75px;
+        }
+        .option{
+            margin: 20px -70px;
+            color: rgb(236, 229, 229);
+            text-shadow: 2px 2px 2px blueviolet, 2px 2px 2px rgb(30, 4, 54);
+        }
+        .space3{
+            height: 5px;
+        }
+        #message{
+            color: rgb(236, 229, 229);
+            padding: 10px 10px;
+            font-size: 18px;
+            margin: 15px 74px;
+            border: none;
+            border-radius: 18px;
+            box-shadow: 0px 2px 10px rgb(3, 98, 161), 0px 2px 10px red;
+            background-color: rgb(167, 101, 228);
+        }
+        #message::placeholder{
+            margin: 0px 50px;
+            color: rgb(236, 229, 229);
+            font-size: 16px;
+        }
+        .create-btn button {
+            cursor: pointer;
+            margin: 20px 210px;
+            width: 300px;
+            height: 35px;
+            border: 2px solid blueviolet;
+            border-radius: 18px;
+            box-shadow: 0px 2px 20px rgb(3, 98, 161), 0px 2px 20px red;
+            background-color: black;
+            color: blueviolet;
+            font-size: 18px;
+            font-weight: 600;
+            text-shadow: 2px 2px 2px black, 2px 2px 1px blueviolet, 2px 2px 1px white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mainbox">
+        <div class="grid">
+            <div class="part1">
+                <div class="space1"></div>
+                <div class="sec1">
+                    <!-- <div class="logo font">
+                        <img src="img/My logo-modified.png" alt="">
+                    </div> -->
+                    <div class="heading1 font">
+                        Contact Information
+                    </div>
+                </div>
+                <div class="text1 font">
+                    Fill up the form and our team will get back to you within 24 hours.
+                </div>
+                <div class="space2"></div>
+                <div class="grid2">
+                    <div class="sec1 font">
+                        <img src="img/call icon.png" alt="">
+                        <span>+91 &nbsp 9452****07</span>
+                    </div>
+                    <div class="sec1 font">
+                        <img src="img/black email icon.png" alt="">
+                        <span>RS_Photography_Edit@gmail.com</span>
+                    </div>
+                    <div class="sec1 font">
+                        <img src="img/Location icon.png" alt="">
+                        <span>Uttar Pradesh , India</span>
+                    </div>
+                    <div class="space2"></div>
+                    <span class="font heading1 ">Our Platforms</span>
+                    <div class="icons">
+                        <a href="https://www.instagram.com/rs_photography_edit/" target="blank">
+                            <img class="insta" src="img/insta logo.png" alt="">
+                        </a>
+                        <a href="" target="blank">
+                            <img class="facebook" src="img/fb logo.png" alt="">
+                        </a>
+                        <a href="" target="blank">
+                            <img class="youtube" src="img/youtubelogo-fotor-bg-remover-202305098585.png" alt="">
+                        </a>
+                        <a href="" target="blank">
+                            <img class="tweet" src="img/twiiter logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="part2 font">
+                <div class="heading2 font">
+                   -: Contact Us :-
+                </div>
+                <div class="space2"></div>
+                <div class="names">
+                    <span>&nbsp First-Name</span>
+                    <span>&nbsp Last-Name</span>
+                    <form action="/" method="GET" class="form">
+                        <button type="submit" class="search-button">
+                            <img src="img/name-modified.png">
+                        </button>
+                        <input type="email" placeholder="Enter your First-Name" class="search-field" />
+                    </form>
+                    <form action="/" method="GET" class="form">
+                        <button type="submit" class="search-button">
+                            <img src="img/name-modified.png">
+                        </button>
+                        <input type="email" placeholder="Enter your Last-Name" class="search-field" />
+                    </form>
+                </div>
+                <div class="small-space"></div><br>
+                <div class="names">
+                    <span>&nbsp Contact-No</span>
+                    <span>&nbsp E-mail ID</span>
+                    <form action="/" method="GET" class="form">
+                        <button type="submit" class="search-button">
+                            <img src="img/call-fotor-bg-remover-20230516101237.png">
+                        </button>
+                        <input type="email" placeholder="Enter your Contact-No" class="search-field" />
+                    </form>
+                    <form action="/" method="GET" class="form">
+                        <button type="submit" class="search-button">
+                            <img src="img/3deamil.jpg">
+                        </button>
+                        <input type="email" placeholder="Enter your E-mail ID" class="search-field" />
+                    </form>
+                </div>
+                <div class="space2"></div>
+                <span class="heading2" id="some">Which Skill do you need ?</span>
+                <div class="checkboxes">
+                    <div class="grid3">
+                    <input type="checkbox" name="" id="check"> 
+                    <span class="option">Web Designing</span>
+                    <input type="checkbox" name="" id="check"> 
+                    <span class="option">Photo Editing</span>
+                    <input type="checkbox" name="" id="check"> 
+                    <span class="option">Video Editing</span>
+                    <input type="checkbox" name="" id="check"> 
+                    <span class="option">Content Writting</span>
+                    </div>
+                </div>
+                <div class="space3"></div>
+                <span class="heading2" id="some">Message :-</span><br>
+                <textarea name="" id="message" placeholder="Enter your message here" cols="60" rows="1" class="font"></textarea>
+                <div class="create-btn ">
+                    <button class="font">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

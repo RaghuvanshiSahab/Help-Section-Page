@@ -1,0 +1,538 @@
+/* SOME-COMMON-SETTINGS */
+.font {
+    font-family: 'Philosopher', sans-serif;
+}
+.font-weight{
+    font-weight: 600;
+}
+
+/* NAVIGATION-BAR */
+
+nav {
+    margin-top: -8px;
+    width: 1349px;
+    margin-left: -8px;
+    margin-right: -0px;
+    height: 70px;
+    background-color: #dc2456;
+    background-image: url(img/members/blue\ pink\ back.jpg);
+    background-size: 1400px 100px;
+}
+
+/* NAV-BAR-LOGO */
+.logo {
+    display: flex;
+}
+
+/* NAV-BAR-LOGO-ICON*/
+.logo img {
+    border-right: 2px solid #0b0255;
+    width: 50px;
+    height: 50px;
+    margin: 10px 40px;
+    padding: 0px 12px;
+}
+
+/* PRICE-TAG-ICON */
+.log img {
+    margin: 10px -110px;
+    border-right: none;
+}
+
+/* PAGE-NAME */
+.logo span {
+    width: 288px;
+    font-size: 24px;
+    margin: 22px -25px;
+    color: #0b0255;
+    text-shadow: 2px 2px 1px rgb(179, 169, 169), 2px 2px 1px #0b0255, 2px 2px 1px black;
+}
+
+/* OPTIONS */
+.Login-Option {
+    font-size: 22px;
+    color: #0b0255;
+    text-shadow: 2px 2px 1px rgb(179, 169, 169), 2px 2px 1px #0b0255, 2px 2px 1px black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 650px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.Contact-Option {
+    font-size: 22px;
+    color: #0b0255;
+    text-shadow: 2px 2px 1px rgb(179, 169, 169), 2px 2px 1px #0b0255, 2px 2px 1px black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 119px;
+}
+
+/* OPEN-PROFILE BUTTON */
+.Open-Profile-Button {
+    border-radius: 18px;
+    border: none;
+    background-color: #0b0255;
+    margin: 15px 20px;
+    width: 125px;
+    height: 30px;
+    font-size: 16px;
+    color: #dc2456;
+    box-shadow: 0px 2px 10px rgb(51, 155, 224), 0px 2px 10px red;
+    cursor: pointer;
+}
+
+/* BACKGROUND VIDEO */
+#Auto-Play-Background {
+    margin-left: -8px;
+    margin-top: -54px;
+    width: 1349px;
+}
+
+/* TEXT ON BACKGROUND VIDEO */
+.content {
+    margin: -380px 0px;
+    color: #f1f1f1;
+    width: 1000px;
+    padding: 20px;
+    cursor: text;
+}
+
+/* MAIN-HEADING */
+.content h1 {
+    width: 800px;
+    margin: -20px 370px;
+    text-shadow: 2px 2px 2px blueviolet, 2px 2px 1px black, 2px 2px 1px black;
+    font-size: 45px;
+}
+
+.space {
+    height: 20px;
+}
+
+/* PARA-BELOW-HEADING */
+.content p {
+    text-align: center;
+    text-shadow: 2px 2px 2px black, 2px 2px 1px blueviolet, 2px 2px 1px white;
+    font-size: 17px;
+    line-height: 3px;
+    opacity: 0.7;
+    margin-left: 300px;
+}
+
+/* PLANS-SECTION */
+.Plan-Box {
+    margin: 200px -10px;
+    height: 840px;
+    width: 1351px;
+    background-color: rgb(248, 213, 227);
+    background-image: url(img/members/blue\ pink\ back.jpg);
+}
+
+.Plan-Box-Grid {
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr;
+    grid-column-gap: 0px;
+    padding-top: 15px 0px;
+    padding-bottom: 0px;
+    margin-left: 120px;
+}
+
+/* PLAN-BOX */
+.Our-Plans-Box {
+    margin: 270px 50px;
+    background-color: white;
+    box-shadow: 01px 01px 01px rgb(73, 44, 44), 4px 4px 4px #dc2456, 8px 8px 8px #0b0255;
+    height: 480px;
+    width: 270px;
+    border-radius: 50px 0px 50px 0px;
+}
+
+.Blue-Strip {
+    border-radius: 47px 0px 0px 0px;
+    background-color: #0b0255;
+    height: 65px;
+}
+
+.gap {
+    height: 20px;
+}
+
+.Blue-Strip span {
+    margin: 0px 55px;
+    color: #dc2456;
+    text-shadow: 2px 2px 2px #332d63, 2px 2px 2px black;
+    font-size: 25px;
+}
+
+.Our-Plans-Box img {
+    margin: -1px 0px;
+    width: 271px;
+    height: 140px;
+}
+
+.price p {
+    color: #0b0255;
+    text-shadow: 2px 2px 2px #dc2456, 2px 2px 2px white;
+    margin: -120px 34px;
+    font-size: 40px;
+}
+
+.validity p {
+    color: #0b0255;
+    text-shadow: 2px 2px 2px #dc2456, 2px 2px 2px white;
+    font-size: 20px;
+    margin: 92px 180px;
+}
+
+.Features ul {
+    color: #0b0255;
+    text-shadow: 2px 2px 2px white, 2px 2px 1px #dc2456, 2px 2px 1px black;
+    font-size: 16px;
+    width: 250px;
+    list-style: none;
+    margin: -10px -10px;
+    line-height: 7px;
+}
+
+.Features ul li::before {
+    content: "\2055";
+    color: #dc2456;
+    font-weight: bold;
+    width: 1em;
+    display: inline-block;
+    margin-left: -1em;
+    line-height: 28px;
+}
+
+.Buy-Now-Button {
+    border: none;
+    background-color: #0b0255;
+    border-radius: 30px 2px 30px 2px;
+    width: 200px;
+    height: 42px;
+    font-size: 22px;
+    color: rgb(187, 39, 64);
+    text-shadow: 1px 1px 1px white, 1px 1px 1px rgb(187, 39, 64);
+    margin: 92px -30px;
+}
+
+.Pink-Strip {
+    border-radius: 47px 0px 0px 0px;
+    background-color: #dc2456;
+    height: 65px;
+}
+
+.Pink-Strip span {
+    margin: 0px 55px;
+    color: #0b0255;
+    text-shadow: 2px 2px 2px #dc2456, 2px 2px 2px black;
+    font-size: 25px;
+}
+
+.price1 p {
+    color: #dc2456;
+    text-shadow: 2px 2px 2px #0b0255, 2px 2px 2px white;
+    margin: -120px 17px;
+    font-size: 40px;
+}
+
+.validity1 p {
+    color: #dc2456;
+    text-shadow: 2px 2px 2px #0b0255, 2px 2px 2px white;
+    font-size: 20px;
+    margin: 92px 180px;
+}
+
+.Buy-Now-Button-2 {
+    border: none;
+    background-color: #0b0255;
+    border-radius: 30px 2px 30px 2px;
+    width: 200px;
+    height: 42px;
+    font-size: 22px;
+    color: rgb(187, 39, 64);
+    text-shadow: 1px 1px 1px white, 1px 1px 1px rgb(187, 39, 64);
+    margin: 38px -30px;
+}
+
+#btn2 {
+    background-color: #dc2456;
+    color: #0b0255;
+}
+
+.main-price span {
+    color: #dc2456;
+    text-shadow: 2px 2px 2px #0b0255, 2px 2px 2px white;
+    margin: -120px 47px;
+    font-size: 40px;
+}
+
+.validity2 p {
+    color: #0b0255;
+    text-shadow: 2px 2px 2px #dc2456, 2px 2px 2px white;
+    font-size: 20px;
+    margin: -28px 170px;
+}
+
+.equal {
+    border: 2px solid black;
+    border-radius: 15px;
+    color: #0b0255;
+    text-shadow: 2px 2px 2px white, 2px 2px 1px #dc2456, 2px 2px 1px black;
+    font-size: 15px;
+    margin: 40px 50px;
+    width: 140px;
+    height: 22px;
+    padding: 0px 10px;
+}
+
+.equal p {
+    margin: 2px 0px;
+}
+
+.check {
+    margin: -20px 20px;
+}
+
+.tick {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid black;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.tick:checked {
+    background-color: #dc2456;
+}
+
+.check span {
+    color: #0b0255;
+    text-shadow: 2px 2px 2px white, 2px 2px 1px #dc2456, 2px 2px 1px black;
+    font-size: 14px;
+}
+
+.small {
+    height: 7px;
+}
+
+.new img {
+    width: 1349px;
+    margin-top: -190px;
+    margin-left: -8px;
+    height: 400px;
+}
+
+.gapnew {
+    height: 190px;
+}
+
+.part3 {
+    margin: -10px -10px;
+    background-color: rgb(248, 213, 227);
+    background-image: url(img/members/blue\ pink\ back.jpg);
+    background-size: 1400px;
+    height: 800px;
+    width: 1351px;
+}
+
+.new-heading {
+    margin: -180px 140px;
+    font-size: 35px;
+    color: #0b0255;
+    text-shadow: 2px 2px 2px #f187a3, 2px 2px 2px #0b0255, 2px 2px 2px black, 2px 2px 2px white;
+}
+
+.new-gap {
+    height: 60px;
+}
+
+.robo {
+    height: 10px;
+    grid-template-areas: "Area";
+    grid-template-columns: 0fr 0fr 0fr;
+    grid-template-rows: auto;
+    grid-column-gap: 0px;
+    display: grid;
+    grid-auto-columns: 0fr;
+    margin-left: 148px;
+}
+
+.robo img {
+    width: 350px;
+    height: 350px;
+    margin-top: 160px;
+}
+
+#robo3 {
+    margin: 160px -32px;
+}
+
+.sec {
+    margin: 368px 170px;
+    grid-template-areas: "Area";
+    grid-template-columns: 0fr 0fr 0fr;
+    grid-template-rows: auto;
+    grid-row-gap: 16px;
+    grid-column-gap: 16px;
+    display: grid;
+    grid-auto-columns: 1fr;
+}
+
+.Blocks1 {
+    height: 400px;
+    box-shadow: 2px 2px 10px black;
+    position: relative;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.Blocks1A {
+    position: static;
+    display: block;
+}
+
+.bat {
+    background: none;
+    position: relative;
+    display: block;
+}
+
+.vimage2 {
+    opacity: 0.9;
+    width: 320px;
+    height: 238px;
+    transition-property: none;
+    cursor: pointer;
+    display: block;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.vtext {
+    cursor: pointer;
+    width: 70px;
+    height: 22px;
+    position: absolute;
+    left: 120px;
+    bottom: 132px;
+    margin: 27px -45px;
+    font-size: 45px;
+    color: #4833ec;
+    text-shadow: 2px 2px 2px black, 2px 2px 2px black, 2px 2px 2px black;
+    text-align: center;
+}
+
+.type {
+    background-color: #7d6ef0;
+    background-image: url(img/puplemount.jpg);
+    height: 166px;
+    margin: -4px 0px;
+}
+
+.type p {
+    margin-top: 4px;
+    text-align: center;
+    color: #0b0255;
+    text-shadow: 2px 2px 2px #f187a3, 2px 2px 2px #0b0255, 2px 2px 2px black, 2px 2px 2px white;
+}
+
+#num {
+    font-size: 25px;
+}
+
+#quan {
+    margin: -24px 0px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.part4 {
+    background-color: black;
+    background-image: url(img/members/blue\ pink\ back.jpg);
+    background-size: 1400px;
+    margin-left: -10px;
+    width: 1351px;
+    height: 800px;
+}
+
+.center {
+    font-size: 40px;
+    text-align: center;
+    color: #dc2456;
+    text-shadow: 2px 2px 3px #0b0255, 2px 2px 3px black;
+}
+
+.under-heading {
+    font-size: 20px;
+    width: 800px;
+    margin: -28px 250px;
+    opacity: 0.65;
+    color: #0b0255;
+    text-shadow: 2px 2px 3px #dc2456, 2px 2px 3px white, 2px 2px 3px black;
+}
+
+.sec2 {
+    height: 10px;
+    grid-template-areas: "Area";
+    grid-template-columns: 0fr 0fr 0fr;
+    grid-template-rows: auto;
+    grid-column-gap: 48px;
+    display: grid;
+    grid-auto-columns: 0fr;
+    margin: 40px 90px;
+}
+
+.sect {
+    background-color: #f75480;
+    background: url(img/members/pink\ black\ texture.jpg);
+    background-size: 400px;
+    box-shadow: 2px 2px 20px #0b0255, 2px 2px 20px white, 2px 2px 20px #0b0255;
+    border-radius: 18px;
+    margin: 50px 0px;
+    width: 350px;
+}
+
+.sect img {
+    width: 350px;
+    height: 320px;
+}
+
+#data {
+    margin: 10px 0px;
+}
+
+#seo {
+    margin: -30px -70px;
+    width: 500px;
+    height: 400px;
+}
+
+.head1 {
+    margin-top: -50px;
+}
+
+.head1 p {
+    font-size: 26px;
+    color: #dc2456;
+    text-shadow: 2px 2px 3px #0b0255, 2px 2px 3px black, 2px 2px 3px #0b0255;
+    text-align: center;
+}
+
+.para1 {
+    text-align: center;
+    margin-top: -30px;
+}
+
+.para1 p {
+    color: #0f0650;
+    text-shadow: 1px 1px 1px rgb(84, 84, 238), 1px 1px 1px white, 1px 1px 1px black;
+    font-size: 18px;
+}

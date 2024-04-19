@@ -1,0 +1,133 @@
+/* SOME COMMON SETTINGS */
+.font {
+    font-family: 'Philosopher', sans-serif;
+}
+
+.blue {
+    color: blueviolet;
+}
+
+/* MAIN-BACKGROUND */
+.block {
+    margin: -8px;
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: black;
+    background-image: url(img/members/blackbg.jpg);
+    background-size: 1370px 670px;
+    background-repeat: no-repeat;
+}
+
+/* PROFILE RING */
+.central img {
+    margin: 130px 40px;
+    width: 380px;
+    height: 380px;
+}
+
+/* CEO-PROFILE IMAGE */
+.inner img {
+    margin: 170px -382px;
+    width: 300px;
+    height: 300px;
+}
+
+/* CEO NAME SECTION */
+.hell {
+    height: 20px;
+}
+
+.text {
+    font-size: 34px;
+    margin: 520px -360px;
+    text-shadow: 2px 2px 2px black, 2px 2px 1px blueviolet, 2px 2px 1px white;
+    font-weight: 600;
+}
+
+/* CENTRAL HEADING */
+.profile {
+    width: 1000px;
+    font-size: 54px;
+    margin: 0px -120px;
+    text-shadow: 2px 2px 2px black, 2px 2px 1px blueviolet, 2px 2px 1px white;
+    font-weight: 600;
+    
+}
+
+/* HEADING UNDERLINE */
+.line {
+    margin: -20px 0px;
+}
+
+.profile img {
+    margin: 0px -30px;
+    width: 890px;
+    height: 30px;
+}
+
+/* ABOUT HEADING */
+.about {
+    width: 500px;
+    font-size: 34px;
+    margin: 130px -725px;
+    text-shadow: 2px 2px 2px black, 2px 2px 1px blueviolet, 2px 2px 1px white;
+    font-weight: 600;
+}
+
+/* CONTENT SECTION */
+.content {
+    height: 363px;
+    width: 1050px;
+    font-size: 18px;
+    margin: 150px 0px;
+}
+
+.content li {
+    text-shadow: 2px 2px 2px black, 2px 2px 1px blueviolet, 2px 2px 1px black;
+    color: white;
+    margin: 0px 250px;
+    width: 680px;
+}
+
+/* SKILLS HEADING */
+.skills {
+    text-shadow: 2px 2px 2px black, 2px 2px 1px blueviolet, 2px 2px 1px white;
+    font-weight: 600;
+    font-size: 35px;
+    margin: 0px 230px;
+}
+
+/* SKIILS IMAGE GRID */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 1.5rem;
+    margin: 2px 250px;
+    padding-top: 15px 0px;
+    padding-bottom: 0px;
+    height: 69px;
+}
+
+.owner-boxs {
+    height: 150px;
+    width: 150px;
+}
+
+/* SKILLS NAME GRID */
+.grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 0.2rem;
+    margin: 97px 250px;
+    padding-top: 0px 0px;
+    padding-bottom: 0px;
+}
+
+.red {
+    text-shadow: 2px 2px 2px black, 2px 2px 1px blueviolet, 2px 2px 1px white;
+    font-size: 22px;
+    width: 150px;
+    padding: 0px 0px;
+    margin: -20px 10px;
+}
